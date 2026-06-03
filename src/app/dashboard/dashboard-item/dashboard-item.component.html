@@ -1,1 +1,7 @@
-<p>dashboard-item works!</p>
+<div class="dashboard-item">
+  <header>
+    <img src="{{ img() }}" alt="{{ alt() }}" />
+    <h2>{{ title() }}</h2>
+  </header>
+  <article><ng-content /></article>
+</div>

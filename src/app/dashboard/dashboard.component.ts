@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { DashboardItemComponent } from './dashboard-item/dashboard-item.component';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [],
+  imports: [DashboardItemComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',
 })
