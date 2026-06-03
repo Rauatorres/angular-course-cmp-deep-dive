@@ -1,0 +1,9 @@
+li a {
+  color: #3e3b3e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #77207a;
+}
